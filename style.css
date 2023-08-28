@@ -1,0 +1,150 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header-menu{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    left: 60% ;
+}
+
+.header-menu li {
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.header-menu li :last-child{
+    margin-right: 0px;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 10%;
+    font-weight: 800;
+}
+
+
+
+
+.Welcome,.browse,.join{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.Welcome{
+    top: 34%;
+    font-weight: 700;
+    color: #001AFF;
+}
+
+.browse{
+    top: 35%;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.join{
+    top: 45%;
+}
+
+.astro,.rocket{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+
+.rocket{
+    top: 17%;
+    left: 58%;
+    width: 400px;
+    height: 400px;
+
+}
+
+.astro{
+    left: 55%;
+    top: 44%;
+    height: 220px;
+    width: 220px;
+}
+
+.sign-up,.sign-in{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-style: bold;
+    line-height: 2.5;
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+}
+
+
+.sign-up{
+    background-color: #0019FF;
+    border-radius:15px;
+    text-align: center;
+    color: white;
+}
+
+.sign-in{
+    left: 25%;
+    background-color: #D9D9D9;
+    border-radius:15px;
+    text-align: center;
+    color: #0019FF;
+}
+
+
+.arrow{
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 768px) and (min-width : 481px){
+    .header-menu{
+        display: none;
+    }
+    .rocket,.astro{
+        display: none;
+    }
+
+    .join{
+        top: 50%;
+    }
+
+    .sign-in,.sign-up{
+        top: 60%;
+    }
+
+    .sign-in{
+        left: 40%;
+    }
+
+    .Welcome,.browse,.join{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+
+    .browse{
+        top: 27%;
+    }
+
+    .join{
+        top: 45%;
+    }
+
+  
+}
